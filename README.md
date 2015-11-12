@@ -2,6 +2,8 @@
 
 This project includes a theme based on Dazzling, a wordpress distribution based on Bedrock (for development), and a deployment/environment toolset based on Trellis.
 
+The theme is located at `site/web/app/themes/Eta-Sigma-Theme`.
+
 ## Requirements
 
 - PHP >= 5.4.x
@@ -14,9 +16,7 @@ This project includes a theme based on Dazzling, a wordpress distribution based 
 ## Installation
 
 1. Clone this project.
-2. Run `git submodule init && git submodule update` inside the project directory.
-3. Run `npm install ` and `bower install` inside `/site/app/web/themes/custom/`  (the theme folder).
-4. Run `ansible-galaxy install -r requirements.yml -p vendor/roles` inside `/trellis`.
+2. Run `ansible-galaxy install -r requirements.yml -p vendor/roles` inside `/trellis`.
 
 ## Development
 1. Run `vagrant up` inside `/trellis/` to start Virtualbox.
