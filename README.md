@@ -7,7 +7,7 @@ The theme is located at `site/web/app/themes/Eta-Sigma-Theme`.
 ## Requirements
 
 - PHP >= 5.4.x
-- Ansible >= 1.9.2 - [Install](http://docs.ansible.com/ansible/intro_installation.html#latest-releases-via-pip)
+- Ansible >= 1.9.2 - [Install](http://docs.ansible.com/ansible/intro_installation.html#latest-releases-via-pip) (DO NOT INSTALL ON WINDOWS)
 - Virtualbox >= 4.3.10 - [Install](https://www.virtualbox.org/wiki/Downloads)
 - Vagrant >= 1.5.4 - [Install](http://www.vagrantup.com/downloads.html)
 - vagrant-bindfs >= 0.3.1 - [Install](https://github.com/gael-ian/vagrant-bindfs#installation)
@@ -16,7 +16,7 @@ The theme is located at `site/web/app/themes/Eta-Sigma-Theme`.
 ## Installation
 
 1. Clone this project.
-2. Run `ansible-galaxy install -r requirements.yml -p vendor/roles` inside `/trellis`.
+2. Run `ansible-galaxy install -r requirements.yml -p vendor/roles` inside `/trellis`. (UNLESS ON WINDOWS)
 
 ## Development
 1. Run `vagrant up` inside `/trellis/` to start Virtualbox.
